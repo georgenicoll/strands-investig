@@ -1,0 +1,21 @@
+[project]
+name = "strands-investig"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "George Nicoll", email = "george.nicoll@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "python-dotenv>=1.2.4",
+    "strands-agents-evals>=1.4.0",
+    "strands-agents[ollama,openai]>=1.58.1",
+]
+
+[project.scripts]
+strands-investig = "strands_investig:main"
+
+[build-system]
+requires = ["uv_build>=0.11.13,<0.12.0"]
+build-backend = "uv_build"
