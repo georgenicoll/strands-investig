@@ -11,6 +11,7 @@ dependencies = [
     "python-dotenv>=1.2.4",
     "strands-agents-evals>=1.4.0",
     "strands-agents[ollama,openai]>=1.58.1",
+    "strands-decider>=0.1.0; sys_platform != 'win32' or platform_machine != 'ARM64'",
 ]
 
 [project.scripts]

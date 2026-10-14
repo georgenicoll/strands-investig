@@ -5,6 +5,9 @@ from dotenv import load_dotenv
 COMMANDS = {
     "basic-eval": "strands_investig.basic_eval",
     "experiment-generation": "strands_investig.experiment_generation",
+    "decider": "strands_investig.decider",
+    "download-decider": "strands_investig.download_decider",
+    "clean": "strands_investig.clean",
 }
 
 
